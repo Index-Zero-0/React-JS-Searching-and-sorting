@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI";
+	box-sizing: border-box;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.table-container {
+	width: 50%;
+}
+
+.table-container table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table thead {
+	background-color: #bbb;
+}
+
+table th,
+table td {
+	padding: 10px;
+	text-align: left;
+	min-width: 150px;
+}
+
+table th {
+	color: #121212;
+}
+
+tr {
+	border-bottom: 1px solid #bbb;
+}
+
+.search-container {
+	margin: 1rem 0;
+	width: 50%;
+}
+
+.search-container input {
+	width: 100%;
+	padding: 10px;
+	font-size: 1rem;
+	outline: none;
+	border: 1px solid #ccc;
+}
+
